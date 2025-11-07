@@ -8,10 +8,11 @@ def get_db_connection():
     """Establishes and returns a database connection."""
     try:
         return mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="HITH@rth@18",
-            database="project"
+            host="sql12.freesqldatabase.com",
+            user="sql12806488",
+            password="U3FCfx2g9d",
+            database="sql12806488"
+            port='3306'
         )
     except mysql.connector.Error as err:
         st.error(f"Database connection failed: {err}")
