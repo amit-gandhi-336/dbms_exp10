@@ -3,7 +3,7 @@ annotated-types==0.7.0
 anyio==4.10.0
 attrs==25.1.0
 blinker==1.9.0
-cachetools==6.2.1
+cachetools==5.3.3
 certifi==2025.8.3
 charset-normalizer==3.4.3
 click==8.2.1
@@ -47,8 +47,7 @@ uvicorn==0.35.0
 watchdog==6.0.0
 zope.interface==8.0.1
 
-# Database - choose ONLY one of these:
-# If using mysql.connector (recommended):
+# Database - choose ONLY one:
 mysql-connector-python==9.5.0
 
 # pip setup tools
